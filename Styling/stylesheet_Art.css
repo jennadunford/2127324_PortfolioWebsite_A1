@@ -1,0 +1,608 @@
+@import url("https://fonts.googleapis.com/css?family=Asap+Condensed&display=swap");
+img {
+  width: 400px;
+  height: auto;
+  border-radius: 15px;
+}
+body {
+  font-family: "Franklin Gothic Medium";
+  padding-bottom: 1px;
+}
+
+nav {
+  list-style-type: none;
+  margin: 30px;
+  padding: 10px;
+  background-color: pink;
+  display: block;
+  border-radius: 15px;
+  overflow: hidden;
+  font-size: 25px;
+  position: relative;
+  left: 435px;
+  top: -180px;
+  height: 50px;
+  width: 580px;
+  font-weight: bolder;
+}
+
+li a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-radius: 15px;
+}
+
+li a:hover {
+  background-color: black;
+  color: white;
+}
+
+button {
+  border-radius: 15px;
+  border-color: pink;
+  background-color: pink;
+  text-align: center;
+  padding: 5px 10px;
+  display: inline-block;
+  font-size: 15px;
+  position: relative;
+  left: 1px;
+  top: -230px;
+  border: none;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+}
+header {
+  font-size: 50px;
+  position: fixed;
+  z-index: 999;
+  display: block;
+  background-color: rgb(230, 145, 145);
+  width: 1600px;
+  height: 120px;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+}
+
+header img {
+  border-radius: 50px;
+  border: 10px solid pink;
+}
+
+header img:hover {
+  border-color: white;
+}
+
+.art {
+  display: block;
+  background-color: pink;
+  align-items: center;
+  border-radius: 20px;
+  padding: 20px;
+  position: relative;
+  left: 50px;
+  top: -600px;
+  width: 1270px;
+}
+
+.field {
+  height: 540px;
+  width: 960px;
+  border-radius: 15px;
+}
+
+.title {
+  position: relative;
+  top: -80px;
+  left: 92px;
+  font-weight: normal;
+  color: white;
+  font-size: 50px;
+}
+
+.artPage {
+  position: relative;
+  top: 600px;
+}
+
+.artworkTitle {
+  font-size: 70px;
+  position: relative;
+  top: -545px;
+}
+.artsubtitle {
+  position: relative;
+  top: -600px;
+}
+
+.aboutPage {
+  position: relative;
+  top: 70px;
+}
+
+.bioTitle {
+  font-size: 50px;
+  position: relative;
+  left: 270px;
+}
+
+.bio {
+  position: relative;
+  top: -40px;
+  left: 270px;
+  width: 630px;
+  height: 10px;
+  font-size: 20px;
+}
+
+.row {
+  display: block;
+  width: 500px;
+  height: 100px;
+  position: relative;
+  left: 950px;
+  top: -140px;
+  padding: 10px;
+  font-size: 25px;
+}
+
+.goArt {
+  list-style-type: none;
+  background-color: pink;
+  display: block;
+  text-decoration: none;
+  color: black;
+  border-radius: 15px;
+  text-align: center;
+  padding: 14px 16px;
+  width: 150px;
+  height: 30px;
+  padding: 2px;
+  font-weight: bolder;
+  position: relative;
+  left: 250px;
+  top: -70px;
+}
+
+.goArt:hover {
+  background-color: rgb(29, 28, 28);
+  color: white;
+}
+.sampleImages {
+  position: relative;
+  top: -50px;
+}
+
+footer {
+  display: block;
+  background-color: pink;
+  opacity: 60%;
+  width: 1800px;
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  text-align: right;
+}
+html {
+  height: auto;
+}
+
+html .indexPage {
+  width: 1000px;
+  height: 400px;
+  overflow: hidden;
+}
+
+.indexPage {
+  position: relative;
+  left: -85px;
+}
+
+.blogContent {
+  position: relative;
+  top: 100px;
+  padding: 1px;
+}
+
+.blogContent h1 {
+  position: relative;
+  top: -50px;
+  font-size: 70px;
+}
+
+.blogContent h2 {
+  position: relative;
+  top: -110px;
+}
+
+.blogContent article {
+  position: relative;
+  top: -79px;
+  padding: 10px;
+  display: block;
+  background-color: pink;
+  border-radius: 15px;
+}
+
+.blogTitle {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.date {
+  font-size: 20px;
+}
+
+.blogLink {
+  display: block;
+  width: 60px;
+  height: 30px;
+  background-color: white;
+  text-decoration: none;
+  border-radius: 12px;
+  text-align: center;
+  color: black;
+}
+
+.blogLink:hover {
+  background-color: black;
+  color: white;
+}
+
+.indexBlog {
+  display: block;
+  background-color: pink;
+  border-radius: 15px;
+  width: 500px;
+  height: 100px;
+  position: relative;
+  left: 10px;
+  top: -30px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+.mTitle {
+  padding: 5px;
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.mDate {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.mblogLink {
+  display: block;
+  width: 60px;
+  height: 30px;
+  background-color: white;
+  text-decoration: none;
+  border-radius: 12px;
+  text-align: center;
+  color: black;
+  position: relative;
+  left: 220px;
+}
+
+.readButton {
+  position: relative;
+  top: 5px;
+}
+
+.mblogLink:hover {
+  background-color: black;
+  color: white;
+}
+
+.actualBlogPost {
+  position: relative;
+  top: 100px;
+}
+
+.bPostHeading {
+  font-size: 70px;
+  position: relative;
+  top: -50px;
+}
+
+.bTitle {
+  font-size: 60px;
+  position: relative;
+  top: -120px;
+}
+
+.bDate {
+  font-size: 50px;
+  position: relative;
+  top: -180px;
+}
+
+.postContent {
+  display: block;
+  width: 1000px;
+  height: auto;
+  font-size: 20px;
+  position: relative;
+  top: -200px;
+  margin: auto;
+  background-color: pink;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.postContent2 {
+  display: block;
+  width: 1000px;
+  height: 2350px;
+  font-size: 20px;
+  position: relative;
+  top: -200px;
+  margin: auto;
+  background-color: pink;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.postContent2 h2 {
+  font-size: 30px;
+}
+
+.backToBlogs {
+  position: relative;
+  top: -180px;
+  left: 1150px;
+  text-decoration: none;
+  color: black;
+  display: block;
+  background-color: pink;
+  width: 100px;
+  height: 30px;
+  padding: 5px;
+  border-radius: 15px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.backToBlogs:hover {
+  background-color: black;
+  color: white;
+}
+
+.sittingGirl {
+  width: 150px;
+  height: auto;
+  position: relative;
+  top: -3750px;
+  left: 1190px;
+}
+
+.broomWitch {
+  width: 150px;
+  height: auto;
+  position: relative;
+  top: -5075px;
+  left: 250px;
+}
+
+.recentBP {
+  position: relative;
+  top: -100px;
+  left: 280px;
+}
+
+.gameEmbed {
+  position: relative;
+  top: -110px;
+  left: 280px;
+}
+
+.gamePrevTitle {
+  position: relative;
+  top: -80px;
+  left: 280px;
+}
+
+.references {
+  list-style-type: none;
+  display: block;
+  width: 900px;
+  text-align: left;
+}
+
+.ref {
+  padding: 8px;
+  list-style-type: none;
+  float: left;
+  text-decoration: none;
+  list-style: none;
+}
+
+.aboutPageContent {
+  position: relative;
+  top: 70px;
+}
+
+.AboutTitle {
+  font-size: 70px;
+}
+
+.aboutBox {
+  top: -55px;
+  left: 10px;
+  position: relative;
+  font-size: 20px;
+  margin: auto;
+  display: block;
+  background-color: pink;
+  border-radius: 15px;
+  padding: 10px;
+  width: 930px;
+}
+.aboutArt {
+  position: relative;
+
+  top: -220px;
+}
+
+.aboutArt2 {
+  position: relative;
+  left: 970px;
+  top: -220px;
+}
+
+.aboutInterests {
+  position: relative;
+  top: -280px;
+}
+
+.dragonBall {
+  font-size: 60px;
+  font-weight: normal;
+  position: relative;
+  top: -80px;
+}
+.stardewValley {
+  font-size: 40px;
+  font-style: italic;
+  position: relative;
+  top: -195px;
+  left: 340px;
+}
+
+.summerCampIsland {
+  font-size: 65px;
+  position: relative;
+  top: -275px;
+  font-weight: lighter;
+}
+
+.toriyamaStyle {
+  position: relative;
+
+  font-size: 75px;
+  font-weight: lighter;
+  font-style: italic;
+  top: -450px;
+  left: 600px;
+}
+.magic {
+  position: relative;
+  font-size: 40px;
+  font-style: italic;
+  top: -525px;
+  left: 100px;
+}
+
+.interestBox {
+  position: relative;
+  top: 7px;
+  left: 5px;
+  width: 1470px;
+  height: 200px;
+  color: rgb(230, 145, 145);
+}
+
+html .aboutP {
+  overflow: hidden;
+}
+
+.aboutHolder {
+  position: relative;
+}
+
+.contactContent {
+  position: relative;
+  top: 50px;
+}
+
+.contactTitle {
+  font-size: 70px;
+}
+
+.contactDetails {
+  position: relative;
+  left: 10px;
+  top: -50px;
+  font-size: 50px;
+  display: block;
+  background: pink;
+  border-radius: 15px;
+  padding: 15px;
+  list-style-type: none;
+  float: left;
+  text-decoration: none;
+  list-style: none;
+}
+
+.contactImage {
+  position: relative;
+  left: 30px;
+  top: -50px;
+}
+.contactPage {
+  position: relative;
+  left: 100px;
+}
+
+html .contactP {
+  overflow: hidden;
+}
+
+.pdfDoc {
+  position: relative;
+  top: 20px;
+  left: 250px;
+}
+
+.designTitle {
+  font-size: 70px;
+  position: relative;
+  top: 50px;
+}
+
+.backToBlogs2 {
+  position: relative;
+  top: -190px;
+  left: -250px;
+  text-decoration: none;
+  color: black;
+  display: block;
+  background-color: pink;
+  border-radius: 15px;
+  font-weight: bolder;
+  width: 100px;
+  padding: 10px;
+  float: right;
+}
+
+.backToBlogs2:hover {
+  background: black;
+  color: white;
+}
+
+.postContent3 {
+  display: block;
+  width: 1000px;
+  height: 1650px;
+  font-size: 20px;
+  position: relative;
+  top: -200px;
+  margin: auto;
+  background-color: pink;
+  padding: 20px;
+  border-radius: 15px;
+}
